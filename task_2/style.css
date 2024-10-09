@@ -1,0 +1,107 @@
+/* base box */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-style:normal;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Layout */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: coral
+}
+
+/* Header */
+
+header {
+    height: 150px;
+    background-color:blueviolet;
+    padding: 10px;
+}
+
+header h1 {
+    color: azure;
+}
+
+/* Nav bar */
+
+nav {
+    background-color: aquamarine;
+}
+
+nav ul {
+    display:flex;
+}
+
+nav ul li {
+    margin: 0 5px;
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: black;
+    display: block;
+    padding: 5px;
+    background-color: brown;
+
+}
+
+/* main */
+main {
+    display: flex;
+}
+
+.content {
+    background-color: chartreuse;
+    padding: 10px;
+    flex-grow: 3;
+    min-height: 800px;
+}
+
+aside {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+aside a{
+    color: fuchsia;
+}
+
+/* footer */
+
+footer {
+    background-color: darkolivegreen;
+    color: beige;
+    padding: 10px;
+    text-align: center;
+}
